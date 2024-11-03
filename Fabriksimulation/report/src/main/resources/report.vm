@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simulation Report</title>
+    <style>
+        body {
+            margin: auto;
+            width: 60%;
+            font-family: sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        div.chart {
+            padding: 20px;
+        }
+    </style>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="./$chartJSFile"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {packages: ['corechart', 'bar', 'table']});
+        #foreach($chartName in $charts)
+            google.charts.setOnLoadCallback($chartName);
+        #end
+    </script>
+</head>
+<body>
+<h1>Simulation Report</h1>
+
+<p>Simulation ran for $simTime seconds of simulated time.</p>
+<p>Workplaces completed $completedTasks tasks during simulation run.</p>
+
+#foreach($chartName in $charts)
+    <div id="$chartName" class="chart"></div>
+#end
+
+</body>
+</html>

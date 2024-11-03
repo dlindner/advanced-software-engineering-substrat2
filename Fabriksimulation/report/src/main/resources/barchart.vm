@@ -1,0 +1,24 @@
+function ${chart.DivName}() {
+    var data = google.visualization.arrayToDataTable([
+        ['$chart.keyName', '$chart.valueName'],
+        #foreach($entry in $chart.Data)
+            ['$entry.Key', $entry.Value],
+        #end
+    ]);
+
+    var options = {
+        title: '$chart.Title',
+        chartArea: {width: '50%'},
+        hAxis: {
+            title: '$chart.ValueName',
+            minValue: 0
+        },
+        vAxis: {
+            title: '$chart.KeyName'
+        }
+    };
+
+    var chart = new google.visualization.BarChart(document.getElementById('$chart.DivName'));
+
+    chart.draw(data, options);
+}
