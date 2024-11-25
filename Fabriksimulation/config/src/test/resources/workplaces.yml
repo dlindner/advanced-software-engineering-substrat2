@@ -1,0 +1,32 @@
+- workplaceID: W1
+  processType: P1
+  processTimes:
+    Product-1: 20
+    Product-2: 10
+    Product-3: 25
+    Product-4: 30
+- workplaceID: W2
+  processType: P2
+  processTimes:
+    Product-3: 60
+- workplaceID: W3
+  processType: P3
+  processTimes:
+    Product-1: 5
+    Product-2: 20
+- workplaceID: W4
+  processType: P4
+  processTimes:
+    Product-1: 10
+    Product-3: 20
+    Product-4: 15
+- workplaceID: W5
+  processType: P5
+  processTimes:
+    Product-2: 10
+    Product-3: 10
+- workplaceID: W6
+  processType: P6
+  processTimes:
+    Product-1: 20
+    Product-3: 5

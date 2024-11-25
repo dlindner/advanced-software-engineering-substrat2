@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<workplaces>
+    <workplace id="W1" process="P1">
+        <processTime product="Product-1">20</processTime>
+        <processTime product="Product-2">10</processTime>
+    </workplace>
+    <workplace id="W2" process="P2">
+        <processTime product="Product-3">60</processTime>
+    </workplace>
+    <workplace id="W3" process="P3">
+        <processTime product="Product-1">5</processTime>
+        <processTime product="Product-2">20</processTime>
+    </workplace>
+    <workplace id="W4" process="P4">
+        <processTime product="Product-4">15</processTime>
+    </workplace>
+    <workplace id="W5" process="P5">
+        <processTime product="Product-2">10</processTime>
+        <processTime product="Product-3">10</processTime>
+    </workplace>
+    <workplace id="W6" process="P6">
+        <processTime product="Product-1">20</processTime>
+        <processTime product="Product-3">5</processTime>
+    </workplace>
+</workplaces>

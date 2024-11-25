@@ -1,0 +1,22 @@
+- productType: Product-1
+  processes:
+    - P1
+    - P3
+    - P4
+    - P6
+- productType: Product-2
+  processes:
+    - P3
+    - P1
+    - P5
+- productType: Product-3
+  processes:
+    - P5
+    - P6
+    - P4
+    - P1
+    - P2
+- productType: Product-4
+  processes:
+    - P4
+    - P1

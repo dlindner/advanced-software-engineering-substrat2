@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products>
+    <product id="Product-1">
+        <process>P1</process>
+        <process>P3</process>
+        <process>P6</process>
+    </product>
+    <product id="Product-2">
+        <process>P3</process>
+        <process>P1</process>
+        <process>P5</process>
+    </product>
+    <product id="Product-3">
+        <process>P5</process>
+        <process>P6</process>
+        <process>P2</process>
+    </product>
+    <product id="Product-4">
+        <process>P4</process>
+    </product>
+</products>
